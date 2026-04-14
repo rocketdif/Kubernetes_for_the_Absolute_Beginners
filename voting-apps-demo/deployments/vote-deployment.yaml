@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: vote
-          image: dockersamples/examplevotingapp_vote
+          image: rocketworld/voting-app-vote:1.0.0.0
           ports:
             - containerPort: 80
               name: vote

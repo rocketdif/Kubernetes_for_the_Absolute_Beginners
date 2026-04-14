@@ -17,4 +17,4 @@ spec:
     spec:
       containers:
         - name: worker
-          image: dockersamples/examplevotingapp_worker
+          image: rocketworld/voting-app-worker:1.0.0.0

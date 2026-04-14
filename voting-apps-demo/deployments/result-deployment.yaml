@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: result
-          image: dockersamples/examplevotingapp_result
+          image: rocketworld/voting-app-result:1.0.0.0
           ports:
             - containerPort: 80
               name: result  
