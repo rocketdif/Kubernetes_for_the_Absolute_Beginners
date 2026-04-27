@@ -20,4 +20,11 @@ spec:
           image: rocketworld/voting-app-result:1.0.0.0
           ports:
             - containerPort: 80
-              name: result  
+              name: result 
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "100m"
+            limits:
+              memory: "256Mi"
+              cpu: "200m" 
